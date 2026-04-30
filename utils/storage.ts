@@ -29,10 +29,10 @@ export interface SortedMedia {
 }
 
 const KEYS = {
-  TAGS: 'sortly_tags',
-  STATS: 'sortly_stats',
-  SORTED: 'sortly_sorted',
-  SORT_ORDER: 'sortly_sort_order',
+  TAGS: 'pixlyt_tags',
+  STATS: 'pixlyt_stats',
+  SORTED: 'pixlyt_sorted',
+  SORT_ORDER: 'pixlyt_sort_order',
 };
 
 const defaultStats: Stats = {

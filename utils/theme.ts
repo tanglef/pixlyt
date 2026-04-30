@@ -1,4 +1,4 @@
-// Sortly Color Theme — pastel pink, light blue, and warm beige
+// pixlyt Color Theme — pastel pink, light blue, and warm beige
 export const colors = {
   // Backgrounds
   bgPrimary: '#fdf6f9',      // warm white-pink

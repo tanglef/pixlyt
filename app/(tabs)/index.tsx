@@ -150,7 +150,7 @@ export default function SortScreen() {
     return (
       <SafeAreaView style={styles.center}>
         <Text style={styles.permTitle}>Allow access to photos</Text>
-        <Text style={styles.permSub}>Sortly needs access to your library to help you organize it.</Text>
+        <Text style={styles.permSub}>pixlyt needs access to your library to help you organize it.</Text>
         <TouchableOpacity style={styles.permBtn} onPress={requestPermission}>
           <Text style={styles.permBtnText}>Grant Access</Text>
         </TouchableOpacity>
@@ -162,7 +162,7 @@ export default function SortScreen() {
     <SafeAreaView style={styles.safe}>
       {/* Header */}
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>sortly</Text>
+        <Text style={styles.headerTitle}>pixlyt</Text>
         <View style={styles.headerRight}>
           <TouchableOpacity onPress={() => setSortOrderVisible(true)} style={styles.headerBtn}>
             <Text style={styles.headerBtnText}>sort ↕</Text>
