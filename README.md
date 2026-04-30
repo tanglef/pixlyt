@@ -1,4 +1,4 @@
-# 🌸 pixlyt — Your media organizer
+# 🌸 Sortly — Your media organizer
 
 A beautiful pastel-themed app to swipe through your phone's photos and videos, keep or delete them, and organize them into tag-based folders.
 
@@ -27,7 +27,7 @@ A beautiful pastel-themed app to swipe through your phone's photos and videos, k
 
 3. Open Terminal and run:
    ```bash
-   cd pixlyt
+   cd sortly
    npm install
    npx expo start
    ```
@@ -59,7 +59,7 @@ For iOS without App Store, use **TestFlight**:
 ## Project structure
 
 ```
-pixlyt/
+sortly/
 ├── app/
 │   ├── _layout.tsx          # Root layout
 │   └── (tabs)/
