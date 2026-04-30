@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Sortly",
+    "slug": "sortly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#fdf6f9",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Sortly needs access to your photos and videos to help you sort and organize them.",
+        "NSPhotoLibraryAddUsageDescription": "Sortly needs to save organized media to your photo library."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#fdf6f9"
+      },
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-media-library"
+    ],
+    "scheme": "sortly"
+  }
+}
